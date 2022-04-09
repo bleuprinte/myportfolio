@@ -1,0 +1,282 @@
+body{
+    position: relative;
+
+    padding: 50px;
+}
+main{
+    position: relative;
+}
+.mainimages
+    {
+    display: flex;
+    margin-left: 60x;
+    margin-right: 60px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.yellowbox
+    {
+    position:absolute;
+    margin-top: -20%;
+    margin-left: 50px;
+    z-index: -1;
+}
+.logo
+    {
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: -100px;
+    z-index: 1;
+
+}
+.indentedh1{
+    margin-left: -600px;
+    margin-top: -170px;
+}
+.home{
+    margin-left: 500px;
+    margin-top: 60px;
+    z-index: 1;
+}
+.DS1
+    {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -500px;
+    z-index: -1;
+}
+.DS2{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -100px;
+    z-index: -1;
+}
+.DS3{
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: -370px;
+    z-index: -1;
+}
+.DS4{
+    position: absolute;
+    margin-top: -60px;
+    z-index: -1;
+}
+.picforcap{
+    position:absolute;
+    margin-top:-300px;
+    z-index: -1;
+}
+#nav
+    {
+    font-size: 60px; 
+    font-family: 'A Pompadour Display Sample';
+}
+.nav{
+    position:absolute;
+    margin-top: -1300px;
+}
+.indentednav{
+    margin-left: 100px;
+}
+.clicktonav{
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    z-index: 3;
+}
+
+.navimage
+    {
+    position: flex;
+    margin-left: 450px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    border: solid black 2px;
+}
+.aboutmetext{
+    position:absolute;
+    margin-left: 374px;
+}
+.certificate{
+    position:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 150px; 
+    font-family: 'A Pompadour Display Sample';
+    padding: 100px;
+    text-align: center;
+    display: block; 
+    margin-bottom: 40px;
+}
+h2{
+    margin-top: 300px;
+    font-size: 70px; 
+    font-family: 'A Pompadour Display Sample';
+}
+h3{
+    font-size: 40px; 
+    font-family: 'A Pompadour Display Sample';
+}
+a
+    {
+    text-decoration:underline;
+    padding: 20px;
+    color: black;
+}
+p
+    {
+    font-size: 20px;
+    font-family: 'Baskerville Old Face'; 
+    padding: 20px;
+    margin-left: 80px;
+}
+#p1
+    {
+    font-size: 40px;
+    font-family: 'YoungSerif'; 
+}
+#p2{
+    font-size: 30px;
+    font-family: 'YoungSerif'; 
+}
+#p3{
+    font-size: 60px;
+    font-family: 'YoungSerif'; 
+}
+.certificates
+    {
+    position: absolute;
+    margin-bottom: 20%;
+}
+.cer123{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.certm{
+    position: absolute;
+    margin-top: -1530px;
+    margin-left: 800px;
+
+}
+.cap{
+    margin-bottom: 900px;
+}
+.porthead{
+    margin-left: 1000px;
+}
+.container1{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.pf1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+.pf2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+.pf3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+.box1{
+    width:45%;
+    margin-top: 200px;
+}
+.box2{
+    position:absolute;
+    width:45%;
+    margin-left: 800px;
+    margin-top: -145px;
+
+}
+.form{
+    width: 600px;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+.inq{
+    position:absolute;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+fieldset {
+    border: 0;
+    width: 520px;
+ }
+ .inputs{
+     width: 600px;
+     margin-bottom: 10px;
+     margin-left: -40px;
+ }
+ .inputs2{
+    width: 600px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+.inputs3{
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+.inputs4{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type="text"] {
+    margin-left: 40px;
+    display:flex;
+    width: 560px;
+    height: 19px;
+    justify-content: space-around;
+}
+input[type="submit"] {
+    display:flex;
+    width: 60px;
+    height: 19px;
+    justify-content: space-around;
+}
+.twit{
+    position:absolute;
+    margin-left: 1100px;
+    margin-top: 550px;
+}
+.insta{
+    position:absolute;
+    margin-left: 950px;
+    margin-top: 550px;
+}
+.thankyou{
+    margin-top: 800px;
+    font-size: 200px;
+    font-family: 'YoungSerif'; 
+}
